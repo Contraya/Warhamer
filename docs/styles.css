@@ -899,8 +899,8 @@ html ,body{
     font-size: 10px;
     line-height: 15px;
     position: absolute;
-    left: 67px;
-    margin-top: -3px;
+    left: 63px;
+    margin-top: -6px;
 }
 .posleftlabel2{
     font-family: TTF4Eo00;
@@ -908,7 +908,7 @@ html ,body{
     line-height: 15px;
     position: absolute;
     left: 407px;
-    margin-top: -3px;
+    margin-top: -6px;
 }
 .posleftlabel3{
     font-family: TTF4Eo00;
@@ -924,7 +924,7 @@ html ,body{
     line-height: 15px;
     position: absolute;
     left: 45px;
-    margin-top: -3px;
+    margin-top: -6px;
 }
 .posleftlabel5{
     font-family: TTF4Eo00;
@@ -945,6 +945,9 @@ html ,body{
     left: 180px;
     margin-top: -4px;
 }
+.topminus{
+    margin-top: -8px;
+}
 .textarea1{
     resize: none;
     height: 45px;
@@ -955,6 +958,163 @@ html ,body{
     margin: 0px;
     height: 20px;
     width: 78px;
+}
+.rozmiar3{
+    position: absolute;
+    height: 8px;
+    width: 8px;
+}
+.rzt1{
+	top: 227px;
+}
+.rzt2{
+	top: 235px;
+}
+.rzt3{
+	top: 243px;
+}
+.rzt4{
+	top: 251px;
+}
+.rzt5{
+	top: 260px;
+}
+.rzt6{
+	top: 268px;
+}
+.rzt7{
+	top: 276px;
+}
+.rzt8{
+	top: 284px;
+}
+.rzt9{
+	top: 292px;
+}
+.rzt10{
+	top: 300px;
+}
+.rzt11{
+	top: 308px;
+}
+.rzt12{
+	top: 316px;
+}
+.rzt13{
+	top: 324px;
+}
+.rzt14{
+	top: 332px;
+}
+.rzt15{
+	top: 340px;
+}
+.rzt16{
+	top: 348px;
+}
+.rzt17{
+	top: 356px;
+}
+.rzt18{
+	top: 364px;
+}
+.rzt19{
+	top: 372px;
+}
+.rzt20{
+	top: 380px;
+}
+.rzt21{
+	top: 388px;
+}
+.rzt22{
+	top: 396px;
+}
+.rzt23{
+	top: 404px;
+}
+.rzt24{
+	top: 412px;
+}
+.rzt25{
+	top: 420px;
+}
+.rzt26{
+	top: 428px;
+}
+.rzt27{
+	top: 436px;
+}
+.rzt28{
+	top: 444px;
+}
+.rzt29{
+	top: 452px;
+}
+.rzt30{
+	top: 460px;
+}
+.rzt31{
+	top: 468px;
+}
+.rzt32{
+	top: 476px;
+}
+.rzt33{
+	top: 502px;
+}
+.rzt34{
+	top: 510px;
+}
+.rzt35{
+	top: 518px;
+}
+.rzt36{
+	top: 526px;
+}
+.rzt37{
+	top: 534px;
+}
+.rzt38{
+	top: 542px;
+}
+.rzt39{
+	top: 550px;
+}
+.rzt40{
+	top: 558px;
+}
+.rzt41{
+	top: 566px;
+}
+.rzt42{
+	top: 574px;
+}
+.rzt43{
+	top: 582px;
+}
+.rzt44{
+	top: 590px;
+}
+.rzt45{
+	top: 598px;
+}
+.rzt46{
+	top: 606px;
+}
+.rzt47{
+	top: 614px;
+}
+.rzt48{
+	top: 622px;
+}
+
+
+.rzl0{
+    left: 120px;
+}
+.rzl1{
+    left: 128px;
 }
 .lewo1{
     left: 480px;

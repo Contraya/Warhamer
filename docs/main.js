@@ -33,12 +33,20 @@ function download(type) {
             data += ";";
         }
     }
-    for(var i = 1; i <= 349; i++){
+    for(var i = 1; i <= 307; i++){
+        data += document.getElementById(i.toString()).checked;
+        data += ";";
+    }
+    for(var i = 308; i <= 359;i++){
+        data += document.getElementById(i.toString()).value;
+        data += ";";
+    }
+    for(var i= 360; i<=511;i++){
         data += document.getElementById(i.toString()).checked;
         data += ";";
     }
     console.log("pobierz PD"+wydanePD.toString());
-    data += wydanePD.toString();
+    data += ""+wydanePD.toString();
     data += ";";
 
     var file = new Blob([data], {type: type});
@@ -81,11 +89,21 @@ var openFile = function(event) {
             line++;
         }
     }
-    for(var i = 1; i <= 349; i++){
+    for(var i = 1; i <= 307; i++){
         if(text[line] == "true"){
-        document.getElementById(i.toString()).checked = !document.getElementById(i.toString()).checked;
-        }
+            document.getElementById(i.toString()).checked = !document.getElementById(i.toString()).checked;
+            }
+            line++;
+    }
+    for(var i = 308; i <= 359;i++){
+        document.getElementById(i.toString()).value = text[line];
         line++;
+    }
+    for(var i= 360; i<=511;i++){
+        if(text[line] == "true"){
+            document.getElementById(i.toString()).checked = !document.getElementById(i.toString()).checked;
+            }
+            line++;
     }
     //line++;
     wydanePD = parseInt(text[line]);
