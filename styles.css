@@ -1,0 +1,1000 @@
+html ,body{
+	margin: 0px;
+}
+.podstawaCechy{
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    font-size: 15px;
+}
+#lewo{
+    position: relative;
+    height: 1080px;
+    width: 800px;
+    background-image: url("1.jpg"); 
+    background-repeat: no-repeat;
+    background-size: contain;
+    float: left;
+}
+#prawo{
+    position: relative;
+    height: 1080px;
+    width: 800px;
+
+    float: left;
+}
+#gracz{
+    position: absolute;
+    top: 34px;
+    left: 183px;
+    height: 15px;
+    width: 140px;
+    font-size: 12px;
+}
+#kampania{
+    position: absolute;
+    top: 34px;
+    left: 383px;
+    height: 15px;
+    width: 133px;
+    font-size: 12px;
+}
+#mg{
+    position: absolute;
+    top: 34px;
+    left: 550px;
+    height: 15px;
+    width: 144px;
+    font-size: 12px;
+}
+#imie{
+    position: absolute;
+    top: 60px;
+    left: 47px;
+    height: 22px;
+    width: 223px;
+    font-size: 19px;
+}
+#rasa{
+    position: absolute;
+    top: 85px;
+    left: 45px;
+    height: 15px;
+    font-size: 12px;
+}
+#plec{
+    position: absolute;
+    top: 85px;
+    left: 220px;
+    height: 15px;
+    font-size: 12px;
+}
+#oczy{
+    position: absolute;
+    top: 101px;
+    left: 46px;
+    height: 15px;
+    font-size: 12px;
+    width: 93px;
+}
+#wlosy{
+    position: absolute;
+    top: 101px;
+    left: 174px;
+    height: 15px;
+    font-size: 12px;
+    width: 95px;
+}
+#wiek{
+    position: absolute;
+    top: 117px;
+    left: 46px;
+    height: 15px;
+    font-size: 12px;
+    width: 54px;
+}
+#wzrost{
+    position: absolute;
+    top: 117px;
+    left: 139px;
+    height: 15px;
+    font-size: 12px;
+    width: 45px;
+}
+#waga{
+    position: absolute;
+    top: 117px;
+    left: 220px;
+    height: 15px;
+    font-size: 12px;
+    width: 50px;
+}
+#znak{
+    position: absolute;
+    top: 133px;
+    left: 100px;
+    height: 15px;
+    font-size: 12px;
+    width: 169px;
+}
+#znaczenie{
+    position: absolute;
+    top: 150px;
+    left: 70px;
+    height: 15px;
+    font-size: 12px;
+    width: 199px;
+}
+#szczegolne{
+    position: absolute;
+    top: 185px;
+    left: 17px;
+    height: 15px;
+    font-size: 12px;
+    width: 252px;
+}
+#profesja{
+    position: absolute;
+    top: 57px;
+    left: 360px;
+    height: 13px;
+    font-size: 10px;
+    width: 212px;
+}
+#kariera{
+    position: absolute;
+    top: 72px;
+    left: 355px;
+    height: 15px;
+    font-size: 10px;
+    width: 216px;
+}
+#urodzenie{
+    position: absolute;
+    top: 98px;
+    left: 362px;
+    height: 15px;
+    font-size: 10px;
+    width: 209px;
+}
+#rodzina{
+    position: absolute;
+    top: 125px;
+    left: 320px;
+    height: 15px;
+    font-size: 10px;
+    width: 252px;
+}
+#zaburzenia{
+    position: absolute;
+    top: 165px;
+    left: 275px;
+    height: 15px;
+    font-size: 10px;
+    width: 296px;
+}
+#rany{
+    position: absolute;
+    top: 194px;
+    left: 275px;
+    height: 15px;
+    font-size: 10px;
+    width: 296px;
+}
+#historia{
+    position: absolute;
+    top: 70px;
+    left: 575px;
+    height: 125px;
+    width: 158px;
+    font-size: 10px;
+    resize: none;
+    background-color: transparent;
+}
+#religia{
+    position: absolute;
+    top: 194px;
+    left: 615px;
+    height: 15px;
+    width: 118px;
+    font-size: 10px;
+}
+
+#wwp{
+    top: 235px;
+    left: 60px;
+}
+#wwr{
+    border-width: 0px;
+    top: 235px;
+    left: 100px;
+}
+#wwa{
+    top: 235px;
+    left: 148px;
+}
+#usp{
+    top: 268px;
+    left: 60px;
+}
+#usr{
+    border-width: 0px;
+    top: 268px;
+    left: 100px;
+}
+#usa{
+    top: 268px;
+    left: 148px;
+}
+#kp{
+    top: 300px;
+    left: 60px;
+}
+#kr{
+    border-width: 0px;
+    top: 300px;
+    left: 100px;
+}
+#ka{
+    top: 300px;
+    left: 148px;
+}
+#odpp{
+    top: 332px;
+    left: 60px;
+}
+#odpr{
+    border-width: 0px;
+    top: 332px;
+    left: 100px;
+}
+#odpa{
+    top: 332px;
+    left: 148px;
+}
+#zrp{
+    top: 364px;
+    left: 60px;
+}
+#zrr{
+    border-width: 0px;
+    top: 364px;
+    left: 100px;
+}
+#zra{
+    top: 364px;
+    left: 148px;
+}
+#intp{
+    top: 396px;
+    left: 60px;
+}
+#intr{
+    border-width: 0px;
+    top: 396px;
+    left: 100px;
+}
+#inta{
+    top: 396px;
+    left: 148px;
+}
+#swp{
+    top: 429px;
+    left: 60px;
+}
+#swr{
+    border-width: 0px;
+    top: 429px;
+    left: 100px;
+}
+#swa{
+    top: 429px;
+    left: 148px;
+}
+#ogdp{
+    top: 461px;
+    left: 60px;
+}
+#ogdr{
+    border-width: 0px;
+    top: 461px;
+    left: 100px;
+}
+#ogda{
+    top: 461px;
+    left: 148px;
+}
+#zywp{
+    top: 510px;
+    left: 60px;
+}
+#zywr{
+    border-width: 0px;
+    top: 510px;
+    left: 100px;
+}
+#zywa{
+    top: 510px;
+    left: 148px;
+}
+#ap{
+    top: 542px;
+    left: 60px;
+}
+#ar{
+    border-width: 0px;
+    top: 542px;
+    left: 100px;
+}
+#aa{
+    top: 542px;
+    left: 148px;
+}
+#szp{
+    top: 574px;
+    left: 60px;
+}
+#szr{
+    border-width: 0px;
+    top: 574px;
+    left: 100px;
+}
+#sza{
+    top: 574px;
+    left: 148px;
+}
+#magp{
+    top: 606px;
+    left: 60px;
+}
+#magr{
+    border-width: 0px;
+    top: 606px;
+    left: 100px;
+}
+#maga{
+    top: 606px;
+    left: 148px;
+}
+
+
+#s{
+    top: 650px;
+    left: 60px;
+}
+#pp{
+    top: 683px;
+    left: 60px;
+}
+#wt{
+    top: 650px;
+    left: 148px;
+}
+#po{
+    top: 683px;
+    left: 148px;
+}
+.bron{
+    border-style: solid;
+    position: absolute;
+    border-width: 0.5px;
+    background-color: transparent;
+    left: 190px;
+    font-size: 10px;
+}
+.kategoria{
+    position: absolute;
+    font-size: 10px;
+    width: 71px;
+    left: 315px;
+}
+.kategoriaTop1{
+    top: 240px;
+}
+.kategoriaTop2{
+    top: 254px;
+}
+.kategoriaTop3{
+    top: 268px;
+}
+.kategoriaTop4{
+    top: 282px;
+}
+.kategoriaTop5{
+    top: 296px;
+}
+.kategoriaTop6{
+    top: 310px;
+}
+.kategoriaTop7{
+    top: 324px;
+}
+.kategoriaTop8{
+    top: 338px;
+}
+.kategoriaTop9{
+    top: 352px;
+}
+.obciazenie{
+    position: absolute;
+    left: 386px;
+    width: 35px;
+    font-size: 10px;
+}
+.obrazenia{
+    position: absolute;
+    left: 421px;
+    width: 35px;
+    font-size: 10px;
+}
+.zasieg{
+    position: absolute;
+    left: 455px;
+    width: 70px;
+    font-size: 10px;
+}
+.ladunek{
+    position: absolute;
+    left: 525px;
+    width: 45px;
+    font-size: 10px;
+}
+.oreza{
+    position: absolute;
+    left: 570px;
+    width: 160px;
+    font-size: 10px;
+}
+#otrzymanepd{
+    position: absolute;
+    top: 425px;
+    left: 252px;
+    width: 220px;
+    height: 15px;
+}
+.opd{
+    position: absolute;
+    top: 425px;
+    left: 190px;
+    font-size: 10px;
+}
+#wydanepd{
+    position: absolute;
+    top: 440px;
+    left: 252px;
+    width: 220px;
+    height: 15px;
+}
+.wydpd{
+    position: absolute;
+    top: 440px;
+    left: 190px;
+    font-size: 10px;
+}
+.pozpd{
+    position: absolute;
+    top: 455px;
+    left: 190px;
+    font-size: 10px;
+}
+#pozostalepd{
+    position: absolute;
+    top: 455px;
+    left: 252px;
+    width: 220px;
+    height: 15px;
+}
+#dinformacje{
+    position: absolute;
+    resize: none;
+    background-color: transparent;
+    top: 538px;
+    left: 190px;
+    width: 280px;
+    height: 170px;
+}
+#wyposazenie{
+    position: absolute;
+    resize: none;
+    background-color: transparent;
+    top: 424px;
+    left: 480px;
+    width: 210px;
+    height: 560px;
+}
+#wyposazenieob{
+    position: absolute;
+    resize: none;
+    background-color: transparent;
+    top: 424px;
+    left: 689px;
+    width: 41px;
+    height: 560px;
+}
+.pancerzTop1{
+    position: absolute;
+    font-size: 10px;
+    height: 16px;
+    top: 744px;
+}
+.pancerzTop2{
+    position: absolute;
+    font-size: 10px;
+    height: 16px;
+    top: 759px;
+}
+.pancerzTop3{
+    position: absolute;
+    font-size: 10px;
+    height: 16px;
+    top: 774px;
+}
+.pancerzTop4{
+    position: absolute;
+    font-size: 10px;
+    height: 16px;
+    top: 789px;
+}
+.pancerzTop5{
+    position: absolute;
+    font-size: 10px;
+    height: 16px;
+    top: 804px;
+}
+.pancerzTop6{
+    position: absolute;
+    font-size: 10px;
+    height: 16px;
+    top: 819px;
+}
+.pancerzTop7{
+    position: absolute;
+    font-size: 10px;
+    height: 16px;
+    top: 834px;
+}
+.pancerzTop8{
+    position: absolute;
+    font-size: 10px;
+    height: 16px;
+    top: 849px;
+}
+.pancerzTop9{
+    position: absolute;
+    font-size: 10px;
+    height: 16px;
+    top: 864px;
+}
+.pancerz{
+    width: 121px;
+    left: 5px;
+}
+.pobc{
+    width: 34px;
+    left: 126px;
+}
+.lokacja{
+    width: 117px;
+    left: 160px;
+}
+.pz{
+    width: 37px;
+    left: 277px;
+}
+.ptkzboi{
+    position: absolute;
+    font-size: 10px;
+    height: 16px;
+    width: 16px;
+}
+#glowa{
+    top: 744px;
+    left: 415px;
+}
+#preka{
+    top: 765px;
+    left: 340px;
+}
+#lreka{
+    top: 805px;
+    left: 435px;
+}
+#lnoga{
+    top: 885px;
+    left: 435px;
+}
+#pnoga{
+    top: 890px;
+    left: 340px;
+}
+#korpus{
+    top: 825px;
+    left: 330px;
+}
+.majatek{
+    position: absolute;
+    left: 322px;
+    width: 150px;
+}
+#korony{
+    top: 975px;
+}
+#szylingi{
+    top: 1010px;
+}
+#pensy{
+    top: 1045px;
+}
+#PD{
+    position: absolute;
+    background-color: black;
+    width: 5px;
+    left: 735px;
+}
+#zapisz{
+    position: absolute;
+}
+#wybierz{
+    position: absolute;
+    left: 60px;
+}
+.rozmiar{
+    padding: 0px;
+    margin: 0px;
+    height: 10px;
+    width: 10px;
+    background-color: black;
+}
+.posLeft1{
+    position: absolute;
+    left: 34px;
+}
+.posLeft2{
+    position: absolute;
+    left: 43px;
+}
+.posLeft3{
+    position: absolute;
+    left: 52px;
+}
+.posLeft4{
+    position: absolute;
+    left: 28px;
+}
+.posLeft5{
+    position: absolute;
+    left: 60px;
+}
+.top1{
+	top: 28px;
+}
+.top2{
+	top: 43px;
+}
+.top3{
+	top: 58px;
+}
+.top4{
+	top: 73px;
+}
+.top5{
+	top: 88px;
+}
+.top6{
+	top: 103px;
+}
+.top7{
+	top: 118px;
+}
+.top8{
+	top: 133px;
+}
+.top9{
+	top: 148px;
+}
+.top10{
+	top: 163px;
+}
+.top11{
+	top: 178px;
+}
+.top12{
+	top: 193px;
+}
+.top13{
+	top: 208px;
+}
+.top14{
+	top: 223px;
+}
+.top15{
+	top: 238px;
+}
+.top16{
+	top: 253px;
+}
+.top17{
+	top: 268px;
+}
+.top18{
+	top: 283px;
+}
+.top19{
+	top: 298px;
+}
+.top20{
+	top: 313px;
+}
+.top21{
+	top: 328px;
+}
+.top22{
+	top: 343px;
+}
+.top23{
+	top: 358px;
+}
+.top24{
+	top: 373px;
+}
+.top25{
+	top: 388px;
+}
+.top26{
+	top: 403px;
+}
+.top27{
+	top: 418px;
+}
+.top28{
+	top: 433px;
+}
+.top29{
+	top: 448px;
+}
+.top30{
+	top: 463px;
+}
+.top31{
+	top: 478px;
+}
+.top32{
+	top: 493px;
+}
+.top33{
+	top: 508px;
+}
+.top34{
+	top: 523px;
+}
+.top35{
+	top: 538px;
+}
+.top36{
+	top: 553px;
+}
+.top37{
+	top: 568px;
+}
+.top38{
+	top: 583px;
+}
+.top39{
+	top: 598px;
+}
+.top40{
+	top: 613px;
+}
+.top41{
+	top: 628px;
+}
+.top42{
+	top: 643px;
+}
+.top43{
+	top: 658px;
+}
+.top44{
+	top: 673px;
+}
+.top45{
+	top: 688px;
+}
+.top46{
+	top: 703px;
+}
+.top47{
+	top: 718px;
+}
+.top48{
+	top: 733px;
+}
+.top49{
+	top: 748px;
+}
+.top50{
+	top: 763px;
+}
+.top51{
+	top: 778px;
+}
+.top52{
+	top: 793px;
+}
+.top53{
+	top: 808px;
+}
+.top54{
+	top: 823px;
+}
+.top55{
+	top: 838px;
+}
+.top56{
+	top: 853px;
+}
+.top57{
+	top: 868px;
+}
+.top58{
+	top: 883px;
+}
+.top59{
+	top: 898px;
+}
+.top60{
+	top: 913px;
+}
+.top61{
+	top: 928px;
+}
+.top62{
+	top: 943px;
+}
+.top63{
+	top: 958px;
+}
+.top64{
+	top: 973px;
+}
+.top65{
+	top: 988px;
+}
+.top66{
+	top: 1003px;
+}
+.top67{
+	top: 1018px;
+}
+.top68{
+	top: 1033px;
+}
+.top69{
+    top: 1048px;
+}
+.top70{
+    top: 1063px;
+}
+.posLeft11{
+    position: absolute;
+    left: 350px;
+}
+.posLeft12{
+    position: absolute;
+    left: 360px;
+}
+.posLeft13{
+    position: absolute;
+    left: 370px;
+}
+.posLeft5{
+    position: absolute;
+    left: 387px;
+}
+.textindent{
+    text-indent: 1em;
+}
+.posleftlabel1{
+    font-family: TTF4Eo00;
+    font-size: 10px;
+    line-height: 15px;
+    position: absolute;
+    left: 67px;
+    margin-top: -3px;
+}
+.posleftlabel2{
+    font-family: TTF4Eo00;
+    font-size: 10px;
+    line-height: 15px;
+    position: absolute;
+    left: 407px;
+    margin-top: -3px;
+}
+.posleftlabel3{
+    font-family: TTF4Eo00;
+    font-size: 10px;
+    line-height: 15px;
+    position: absolute;
+    left: 540px;
+    margin-top: -3px;
+}
+.posleftlabel4{
+    font-family: TTF4Eo00;
+    font-size: 10px;
+    line-height: 15px;
+    position: absolute;
+    left: 45px;
+    margin-top: -3px;
+}
+.posleftlabel5{
+    font-family: TTF4Eo00;
+    font-size: 10px;
+    line-height: 15px;
+    position: absolute;
+    width: 200px;
+    left: 180px;
+    margin-top: -3px;
+}
+.posleftlabel6{
+    padding: 0;
+    font-family: TTF4Eo00;
+    font-size: 10px;
+    line-height: 15px;
+    position: absolute;
+    width: 170px;
+    left: 180px;
+    margin-top: -4px;
+}
+.textarea1{
+    resize: none;
+    height: 45px;
+}
+.rozmiar2{
+    position: absolute;
+    padding: 0px;
+    margin: 0px;
+    height: 20px;
+    width: 78px;
+}
+.lewo1{
+    left: 480px;
+}
+.lewo2{
+    left: 565px;
+}
+.lewo3{
+    left: 652px;
+}
+.gora1{
+    top: 1002px;
+}
+.gora2{
+    top: 1037px;
+}
+.center{
+    text-align: center;
+}
+.umiejetnosci{
+    position: absolute;
+    left: 60px;
+    text-align: center;
+    width: 300px;
+    background-color: black;
+    color: white;
+}
+.zdolnosci{
+    position: absolute;
+    left: 450px;
+    text-align: center;
+    width: 300px;
+    background-color: black;
+    color: white;
+}
+
+
+
+
+
+
+
+
